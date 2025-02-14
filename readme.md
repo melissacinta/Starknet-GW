@@ -32,8 +32,6 @@ Starknet Global Wallet will utilize smart contracts written in Cairo and deploye
 
 ## Roadmap
 
-*(This section will outline the planned features and milestones for the project.)*
-
 * **Phase 1: Core Wallet Functionality:** Smart contract development, basic UI, social login integration.
 * **Phase 2: Cross-Application Connectivity:** SDK development, dApp integration examples.
 * **Phase 3: Enhanced Security Features:** Transaction simulation, multi-sig support.
