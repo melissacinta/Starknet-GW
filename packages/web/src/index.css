@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -6,6 +7,7 @@
 /* Add your custom styles here, including styles declared in the base layer to give Tailwind v4 theme access to them */
 @theme inline {
     --color-primary: var(--primary);
+    --color-grayish: #9DA3AC;
     --color-primary-bluegreen: var(--primary-bluegreen);
     --color-gray-green: var(--gray-green);
     --color-primary-text: var(--primary-text);
@@ -43,6 +45,7 @@
     --radius-md: calc(var(--radius) - 2px);
     --radius-lg: var(--radius);
     --radius-xl: calc(var(--radius) + 4px);
+    --font-bricolage: "Bricolage Grotesque", sans-serif;
 }
 
 @layer base {
@@ -127,7 +130,7 @@
     }
 
     * {
-        @apply border-border outline-ring/50;
+        @apply border-border outline-ring/50 font-bricolage;
     }
 
     body {

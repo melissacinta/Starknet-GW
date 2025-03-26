@@ -11,7 +11,7 @@ const { toggleTheme, isDarkMode } = setupThemeToggle();
 const DashboardLayout = () => {
   return (
     <SidebarProvider>
-      <div className="h-screen bg-primary p-10 lg:p-[3.125rem] flex w-full">
+      <div className="h-screen bg-primary p-4 md:p-10 lg:p-[3.125rem] flex w-full">
         <GWSidebar />
         <main className="flex-1 relative w-full overflow-auto no-scrollbar">
           <div className="absolute top-0 right-0 w-max flex gap-2 items-center">

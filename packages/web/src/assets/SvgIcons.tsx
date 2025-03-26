@@ -9,14 +9,14 @@ export const SvgIcons = {
     >
       <path
         d="M13.8336 8.5H3.16699"
-        stroke="#FAFAFA"
+        stroke="currentColor"
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M10.5001 11.8337C10.5001 11.8337 13.8333 9.37873 13.8333 8.50033C13.8333 7.62193 10.5 5.16699 10.5 5.16699"
-        stroke="#FAFAFA"
+        stroke="currentColor"
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -237,6 +237,116 @@ export const SvgIcons = {
         d="M7 13.334V11.8757"
         stroke="var(--primary-text)"
         strokeWidth="0.875"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  ),
+  fund: () => (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M13.9618 11.2239C13.5243 8.59139 12.1621 6.63108 10.978 5.47966C10.6334 5.14461 10.4611 4.97708 10.0805 4.82204C9.69993 4.66699 9.3728 4.66699 8.71853 4.66699H7.28147C6.62721 4.66699 6.30007 4.66699 5.91948 4.82204C5.53889 4.97708 5.36661 5.14461 5.02203 5.47966C3.83788 6.63108 2.47574 8.59139 2.03818 11.2239C1.71262 13.1826 3.51951 14.667 5.53888 14.667H10.4611C12.4805 14.667 14.2874 13.1826 13.9618 11.2239Z"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4.83807 2.96159C4.70053 2.76139 4.50118 2.48967 4.91299 2.42771C5.33627 2.36401 5.7758 2.65377 6.20603 2.64781C6.59524 2.64243 6.79353 2.4698 7.00626 2.22333C7.23026 1.96379 7.57713 1.33301 8.00033 1.33301C8.42353 1.33301 8.77039 1.96379 8.99439 2.22333C9.20713 2.4698 9.40539 2.64243 9.79459 2.64781C10.2249 2.65377 10.6644 2.36401 11.0877 2.42771C11.4995 2.48967 11.3001 2.76139 11.1626 2.96159L10.5407 3.86677C10.2747 4.25398 10.1417 4.44759 9.86326 4.55697C9.58493 4.66634 9.22519 4.66634 8.50579 4.66634H7.49486C6.77546 4.66634 6.41573 4.66634 6.13737 4.55697C5.85901 4.44759 5.72599 4.25398 5.45996 3.86677L4.83807 2.96159Z"
+        stroke="currentColor"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9.08414 8.61206C8.94001 8.07999 8.20641 7.59986 7.32581 7.95906C6.4452 8.31819 6.30532 9.47386 7.63734 9.59666C8.23934 9.65213 8.63188 9.53226 8.99121 9.87139C9.35061 10.2105 9.41734 11.1535 8.49868 11.4077C7.58001 11.6618 6.67034 11.2647 6.57129 10.7008M7.89414 7.32812V7.83506M7.89414 11.4859V11.9948"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  ),
+  expand: () => (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10.9995 2.17747C11.5624 2.16947 13.4268 1.78219 13.822 2.17747C14.2173 2.57275 13.83 4.43706 13.822 5M13.6702 2.32731L9.00098 6.9974"
+        stroke={'currentColor'}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M2.17747 10.9997C2.16947 11.5626 1.78219 13.427 2.17747 13.8222C2.57275 14.2175 4.43706 13.8302 5 13.8222M7.00123 8.99805L2.33206 13.6681"
+        stroke={'currentColor'}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  ),
+  eyeClosed: () => (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M22 8C22 8 18 14 12 14C6 14 2 8 2 8"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+      <path
+        d="M15 13.5L16.5 16"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M20 11L22 13"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M2 13L4 11"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9 13.5L7.5 16"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  ),
+  refresh: () => (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M15.0069 1.5V3.84914C15.0069 4.06954 14.7313 4.16931 14.5903 4C13.2169 2.46563 11.2213 1.5 9 1.5C4.85786 1.5 1.5 4.85786 1.5 9C1.5 13.1421 4.85786 16.5 9 16.5C13.1421 16.5 16.5 13.1421 16.5 9"
+        stroke="currentColor"
+        strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
