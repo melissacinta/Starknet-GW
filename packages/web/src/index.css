@@ -8,6 +8,7 @@
 @theme inline {
     --color-primary: var(--primary);
     --color-grayish: #9DA3AC;
+    --color-tealish: #0EB094;
     --color-primary-bluegreen: var(--primary-bluegreen);
     --color-gray-green: var(--gray-green);
     --color-primary-text: var(--primary-text);
@@ -70,7 +71,7 @@
         --muted-foreground: #6B7280;
         --accent: #E5E7EB;
         --accent-foreground: #111827;
-        --destructive: #DC2626;
+        --destructive: #FF8059;
         --border: #D1D5DB;
         --input: #D1D5DB;
         --ring: #6366F1;
@@ -110,7 +111,6 @@
         --muted-foreground: #CBD5E1;
         --accent: #334155;
         --accent-foreground: #F4F6FA;
-        --destructive: #EF4444;
         --border: #475569;
         --input: #475569;
         --ring: #6366F1;
