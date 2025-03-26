@@ -8,5 +8,8 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react-router": "^7.4.0"
   }
 }
