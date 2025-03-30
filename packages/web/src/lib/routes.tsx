@@ -1,4 +1,5 @@
 import TradeDashboard from "@/pages/dashboardPages/TradeDashboard";
+import TradeDashboard_Event from "@/pages/dashboardPages/TradeDashboard_Event";
 import React from "react";
 import DashboardPage from "../pages/dashboardPages/Dashboard";
 
@@ -16,6 +17,11 @@ export const dashboardRoutes: Routes[] = [
     path: "/dashboard/trade",
     element: <TradeDashboard />,
   },
+  {
+    path: "/dashboard/trade/event",
+    element: <TradeDashboard_Event />,
+  },
+
   // Add more routes here
   // Example:
   // {

@@ -1,10 +1,11 @@
 import { SvgIcons } from "@/assets/SvgIcons";
 import { tradeTokenColums } from "@/components/dashboard/columns";
+import { PopularTokenCard, TradeCard } from "@/components/dashboard/tradeCards";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, EmptyCard } from "@/components/ui/card";
 import { DataTable } from "@/components/ui/data-table";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { PopularTokenCard, TradeCard } from "../../components/TradeCards";
+
 function TradeDashboard() {
   return (
     <section className="max-md:mt-16">
