@@ -1092,22 +1092,9 @@ were emphasized.
 - **Leverage Established Libraries:** Use audited libraries (FIDO2 server, Cairo
   crypto, OpenZeppelin components).
 
-### 11.4. Next Steps
-
-This document provides the technical foundation. Next steps include:
-
-1. Detailed architectural design for each component.
-2. Implementation.
-3. Rigorous testing.
-4. Security audits.
-5. Iterative refinement based on testing/feedback.
-
-Specialized teams can use this document to understand responsibilities and
-interdependencies. Continuous collaboration is essential.
-
 ---
 
-## Works Cited
+## Appendix
 
 [^1]: Accounts - OpenZeppelin Docs, accessed April 14, 2025,
     https://docs.openzeppelin.com/contracts-cairo/0.14.0/accounts
