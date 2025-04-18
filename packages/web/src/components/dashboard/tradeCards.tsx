@@ -27,7 +27,7 @@ export const TradeCard = ({ value, env, name }: TradeCardProps) => {
           >
             {value}%
           </div>
-          <div className="px-[12px] py-[4px] flex items-center gap-2 shadow-lg dark:shadow-none dark:bg-[#314140] shadow-[#9DA3AC] text-[12px] rounded-[48px]">
+          <div className="px-[12px] py-[4px] flex items-center gap-2 bg-white shadow-md dark:shadow-none dark:bg-[#314140] shadow-[#0000001A] text-[12px] rounded-[48px]">
             <img src="/dashboardIcons/expand.svg" className="w-auto h-auto" />
             Expand
           </div>
