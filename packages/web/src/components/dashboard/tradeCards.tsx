@@ -39,7 +39,7 @@ export const TradeCard = ({ value, env, name }: TradeCardProps) => {
 
 export const PopularTokenCard = () => {
   return (
-    <div className="w-full h-[153px] dark:bg-[#0A1D1C] dark:border-none bg-white rounded-[16px] border-[1px] border-[#DEDEDE] p-[24px]">
+    <div className="w-full h-[153px] flex flex-col dark:bg-[#0A1D1C] dark:border-none bg-white rounded-[16px] border-[1px] border-[#DEDEDE] p-[24px]">
       <div className="flex flex-row items-center gap-[12px] w-auto">
         <img src="/dashboardIcons/Profile.svg" className="h-auto w-auto" />
         <div className="flex-col flex gap-[2px] w-auto">
