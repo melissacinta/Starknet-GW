@@ -1,3 +1,5 @@
+import StockChart from "./StockAreaCharts";
+
 interface TradeCardProps {
   value: number;
   env: string;
@@ -39,8 +41,8 @@ export const TradeCard = ({ value, env, name }: TradeCardProps) => {
 
 export const PopularTokenCard = () => {
   return (
-    <div className="w-full h-[153px] flex flex-col dark:bg-[#0A1D1C] dark:border-none bg-white rounded-[16px] border-[1px] border-[#DEDEDE] p-[24px]">
-      <div className="flex flex-row items-center gap-[12px] w-auto">
+    <div className="w-full h-[317px] flex flex-col dark:bg-[#0A1D1C] dark:border-none bg-white rounded-[16px] border-[1px] border-[#DEDEDE] ">
+      <div className="flex flex-row items-center gap-[12px] w-auto p-[24px]">
         <img src="/dashboardIcons/Profile.svg" className="h-auto w-auto" />
         <div className="flex-col flex gap-[2px] w-auto">
           <p className="font-normal text-sm text-center text-[#1E1E1E] dark:text-[#F4F6FA] capitalize">
@@ -49,6 +51,7 @@ export const PopularTokenCard = () => {
           <p className="font-normal text-sm text-[#9DA3AC] uppercase">Eth</p>
         </div>
       </div>
+      <StockChart />
     </div>
   );
 };
