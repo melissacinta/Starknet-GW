@@ -1,5 +1,4 @@
 import { SvgIcons } from "@/assets/SvgIcons";
-import { Account } from "@/components/dashboard/account";
 import { tradeTokenColums } from "@/components/dashboard/columns";
 import { PopularTokenCard, TradeCard } from "@/components/dashboard/tradeCards";
 import { Button } from "@/components/ui/button";
@@ -75,8 +74,6 @@ function TradeDashboard() {
           <EmptyCard />
         </TabsContent>
       </Tabs>
-
-      <Account />
     </section>
   );
 }
