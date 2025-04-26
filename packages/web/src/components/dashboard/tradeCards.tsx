@@ -27,7 +27,7 @@ export const TradeCard = ({ value, env, name }: TradeCardProps) => {
           >
             {value}%
           </div>
-          <div className="px-[12px] py-[4px] flex items-center gap-2 shadow-lg dark:shadow-none dark:bg-[#314140] shadow-[#9DA3AC] text-[12px] rounded-[48px]">
+          <div className="px-[12px] py-[4px] flex items-center gap-2 bg-white shadow-md dark:shadow-none dark:bg-[#314140] shadow-[#0000001A] text-[12px] rounded-[48px]">
             <img src="/dashboardIcons/expand.svg" className="w-auto h-auto" />
             Expand
           </div>
@@ -39,7 +39,7 @@ export const TradeCard = ({ value, env, name }: TradeCardProps) => {
 
 export const PopularTokenCard = () => {
   return (
-    <div className="w-full h-[153px] dark:bg-[#0A1D1C] dark:border-none bg-white rounded-[16px] border-[1px] border-[#DEDEDE] p-[24px]">
+    <div className="w-full h-[153px] flex flex-col dark:bg-[#0A1D1C] dark:border-none bg-white rounded-[16px] border-[1px] border-[#DEDEDE] p-[24px]">
       <div className="flex flex-row items-center gap-[12px] w-auto">
         <img src="/dashboardIcons/Profile.svg" className="h-auto w-auto" />
         <div className="flex-col flex gap-[2px] w-auto">
