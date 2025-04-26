@@ -10,13 +10,16 @@ import {
 } from "../ui/dialog";
 
 import { Button } from "@/components/ui/button";
+import IconPlaceholder from "../shared/IconPlaceholder";
 import { Input } from "../ui/input";
 
 export function Account() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button>Open Modal</Button>
+        <Button className="bg-transparent">
+          <IconPlaceholder className="h-7 w-7" />
+        </Button>
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>

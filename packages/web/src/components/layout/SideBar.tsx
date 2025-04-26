@@ -1,6 +1,7 @@
 import { ReactNode, useEffect, useState } from "react";
 import { useLocation } from "react-router";
 import { SvgIcons } from "../../assets/SvgIcons";
+import { Account } from "../dashboard/account";
 import IconPlaceholder from "../shared/IconPlaceholder";
 import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
@@ -65,7 +66,7 @@ const GWSidebar = () => {
         <div className="rounded-xl p-4 bg-gray-green mb-10 min-h-[20vh] flex flex-col gap-6">
           <div className="flex items-center justify-between gap-2">
             <span>Wallet</span>
-            <IconPlaceholder className="h-7 w-7" />
+            <Account />
           </div>
           <Button className="mt-auto w-full px-12 py-3">
             <span>Fund</span> <span>{SvgIcons["arrow-right"]()}</span>
