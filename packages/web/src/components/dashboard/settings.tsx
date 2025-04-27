@@ -43,7 +43,7 @@ export function SettingsModal({
                 <Button
                   variant={'ghost'}
                   onClick={() => handleEnable(item.id)}
-                  className="w-max px-[16px] py-[10px] text-sm lg:text-base  bg-[#D9D9D9] dark:bg-[#314140] dark:text-[#F4F6FA] text-[#1E1E1E]  rounded-[48px] opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none"
+                  className="w-max px-[16px] py-[10px] text-sm lg:text-base  bg-[#D9D9D9] dark:bg-[#314140] dark:text-[#F4F6FA] text-[#1E1E1E]  rounded-[48px] opacity-70 transition-opacity hover:opacity-100 focus:ring-0 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none"
                 >
                   <span>Enable</span>
                 </Button>

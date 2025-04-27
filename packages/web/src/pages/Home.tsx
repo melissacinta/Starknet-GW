@@ -1,9 +1,15 @@
 import { Account } from '@/components/dashboard/account';
+import { BronzeTier } from '@/components/dashboard/BronzeTier';
+import { Switch } from '@/components/ui/switch';
+import { setupThemeToggle } from '@/lib/themeToggle';
 import { Link } from 'react-router';
+
+const { toggleTheme, isDarkMode } = setupThemeToggle();
 
 const HomePage = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
+      <Switch defaultChecked={isDarkMode} onClick={toggleTheme} />
       <h1 className="text-4xl font-bold mb-4">Welcome to the Home Page</h1>
       <p className="text-lg">This is a dummy home page of This application.</p>
       <p className="text-lg">Below are link to pages on the application.</p>
@@ -46,6 +52,15 @@ const HomePage = () => {
           </div>
         </li>
       </ul>
+      <div>
+        <BronzeTier
+          address="0x1234567890123456789012345678901234567890"
+          tier="Bronze"
+          xp={200}
+          maxXp={1000}
+          timeLeft={{ hours: 132, minutes: 48, seconds: 3 }}
+        />
+      </div>
     </div>
   );
 };
