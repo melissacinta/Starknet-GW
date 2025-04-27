@@ -30,23 +30,23 @@ export function SettingsModal({
             {securityContent.map((item) => (
               <div
                 key={item.id}
-                className="flex flex-col items-start gap-6 mb-4 border dark:border-[#314140] border-[#EDEFF3] bg-[#F7F9FF] dark:bg-[#0A1D1C] p-3 rounded-xl"
+                className="flex flex-col items-start gap-2 mb-4 border dark:border-[#314140] border-[#EDEFF3] bg-[#F7F9FF] dark:bg-[#0A1D1C] p-3 rounded-xl"
               >
-                <div className="w-full gap-2 py-3 flex flex-col">
+                <div className="w-full gap-0.5 flex flex-col">
                   <p className="text-lg font-normal capitalize dark:text-[#F4F6FA] text-[#2D2D2D] ">
                     {item.title}
                   </p>
                   <p className="text-[#9DA3AC] capitalize font-Sansation font-normal text-sm">
                     {item.description}
                   </p>
-                  <Button
-                    variant={'ghost'}
-                    onClick={() => handleEnable(item.id)}
-                    className="w-max px-[16px] py-[10px] text-sm lg:text-base  bg-[#D9D9D9] dark:bg-[#314140] dark:text-[#F4F6FA] text-[#1E1E1E]  rounded-[48px] opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none"
-                  >
-                    <span>Enable</span>
-                  </Button>
                 </div>
+                <Button
+                  variant={'ghost'}
+                  onClick={() => handleEnable(item.id)}
+                  className="w-max px-[16px] py-[10px] text-sm lg:text-base  bg-[#D9D9D9] dark:bg-[#314140] dark:text-[#F4F6FA] text-[#1E1E1E]  rounded-[48px] opacity-70 transition-opacity hover:opacity-100 focus:ring-2 focus:ring-offset-2 focus:outline-hidden disabled:pointer-events-none"
+                >
+                  <span>Enable</span>
+                </Button>
               </div>
             ))}
           </DialogDescription>
